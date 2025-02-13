@@ -1,0 +1,90 @@
+html{
+    background-color: rgb(124, 124, 124);
+    font-family: Verdana;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+    padding: 0;
+    margin: 0 auto;
+    max-width: 96%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 50px 0 50px;
+}
+
+nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: #3b3b3b;
+    color: rgb(255, 255, 255);
+    height: 60px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    min-height: 100vh;
+    padding: 105px 150px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: aliceblue;
+    font-family: Verdana;
+    font-size: 25px;
+}
+
+.active{
+    border-bottom: solid white 1px;
+}
+
+main > img{
+    width:450px;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+main .quote{
+    font-style:italic;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 15em;
+}
+
+main > p{
+    margin-top: 5em;
+    font-size: 40px;
+}
+
+main > h2{
+    border-bottom: solid;
+    margin: 0 0 0 50px;
+}
+
+#about-header{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h1{
+    width: 850px;
+}
+
+section{
+    border-top: solid white;
+    font-size: 15px;
+}
+
+.about-img{
+    height: 250px;
+}
+
+p {
+    font-size: 25px;
+}
